@@ -160,7 +160,7 @@ body {
 	
 }
 .product-photo img {
-	position: absolute;
+	position: center;
 	object-fit: cover;
 	margin: -50px -70px -30% -100px;
 	transition: all .4s ease-out;
