@@ -162,7 +162,7 @@ body {
 .product-photo img {
 	position: absolute;
 	object-fit: cover;
-	margin: -50px -70px -50% -100px;
+	margin: -50px -70px -75% -100px;
 	transition: all .4s ease-out;
 }
 .product-photo:hover  img {
