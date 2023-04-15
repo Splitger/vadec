@@ -209,7 +209,7 @@ body {
   width: 100%;
 }
 
-.alfabet a {
+.alfabet {
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -226,7 +226,7 @@ body {
   transition: background-color 0.2s ease-in-out;
 }
 
-. alfabet a:hover {
+. alfabet:hover {
   background-color: #555;
 
 
