@@ -209,7 +209,7 @@ body {
   width: 100%;
 }
 
-a {
+.alfabet a {
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -226,14 +226,14 @@ a {
   transition: background-color 0.2s ease-in-out;
 }
 
-a:hover {
+. alfabet a:hover {
   background-color: #555;
 
 
 }
 
 /* Ukrywanie niepotrzebnych elementów */
-.hidden {
+.alfabet: hidden {
   display: none;
 }
 
