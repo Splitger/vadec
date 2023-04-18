@@ -202,42 +202,27 @@ body {
 }
 
 /*moj css wygenerowany w open ai*/
-.alfabet {
+
+.alphabet {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  margin-top: 50px;
-  max-width: 220px;
-  margin: 0 auto;
-  width: 100%;
 }
 
-.alfabet {
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  width: 50px;
-  height: 50px;
-  line-height: 50px;
-  text-align: center;
+.alphabet a {
+  display: block;
+  width: 20px;
+  height: 20px;
   margin: 5px;
-  font-size: 24px;
-  font-weight: 700;
-  color: #fff;
-  background-color: #000;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  color: black;
+  background-color: white;
+  border: 1px solid black;
   border-radius: 50%;
-  transition: background-color 0.2s ease-in-out;
 }
 
-. alfabet:hover {
-  background-color: #555;
-
-
+.alphabet a:hover {
+  background-color: black;
+  color: white;
 }
-
-/* Ukrywanie niepotrzebnych elementów */
-.alfabet: hidden {
-  display: none;
-}
-
