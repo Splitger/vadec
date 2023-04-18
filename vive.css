@@ -161,11 +161,15 @@ body {
 	
 }
 .product-photo img {
-	position: absolute;
-	object-fit: cover;
-	margin: -50px -70px -75% -100px;
-	transition: all .4s ease-out;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+    margin: -50px -70px -75% -100px;
+    transition: all .4s ease-out;
 }
+
 .product-photo:hover  img {
 	-webkit-transform: scale(1.2);
 	-ms-transform: scale(1.2);
