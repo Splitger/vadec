@@ -164,7 +164,7 @@ body {
     position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-25%, -25%);
     object-fit: cover;
     margin: -50px -70px -75% -100px;
     transition: all .4s ease-out;
