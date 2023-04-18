@@ -1,71 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
-    <meta http-equiv="Content-Type" content="text/html">
     <meta name="description" content="Insert Your Site Description"> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="HandheldFriendly" content="true"/>
-<meta name="MobileOptimized" content="320"/> 
-
-<link href="vive.css" rel="stylesheet">
-
-
-<!-- Main Style -->
-
     <title>Document</title>
-    <!-- Analytics 
-<script type="text/javascript">
+    <link href="vive.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <nav class="menu-main">
+        <div class="background"></div>
+        <button class="btn" onClick="addFilters()">OUR WORKS</button> 
+        <i class="fa-duotone fa-bars"></i>
+        <h1><span class="title">Metro</span></h1>
+      </nav>
+    </header>
 
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'Insert Your Code']);
-    _gaq.push(['_trackPageview']);
-  
-    (function() {
-      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    })();
-  
-  </script>
-   End Analytics -->
-</head>
-<body class="line">
-<header>
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-<!--
-  <nav class="menu-main">
-<h4><span class="latter"><a href="">OUR WORKS</a></span></h4>
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-<i class="fa-duotone fa-bars"></i>
-<h1><a href=""><span class="latters"></span>Build Great Products</span></a></h1>
-  </nav>
--->
-<nav class="menu-main">
-  
-<div class="background">
-  
-  <div class="blur"></div>
-  
-</div>
-
-<button class="btn" onClick="addFilters()">OUR WORKS</button> 
- <i class="fa-duotone fa-bars"></i>
-<h1><span class="title"> Metro </span></h1>
-</nav>
-
-<script>
-  const filter = document.querySelector('.blur');
-
-const addFilters = () => filter.classList.toggle('multiple-filters');
-</script>
-
-</header>
-
-
-    
-<h1>Litery Alfabetu</h1>
-    <div class="alfabet">
+    <h1>Litery Alfabetu</h1>
+    <div class="alphabet">
       <a href="#">A</a>
       <a href="#">B</a>
       <a href="#">C</a>
@@ -90,17 +43,18 @@ const addFilters = () => filter.classList.toggle('multiple-filters');
       <a href="#">V</a>
       <a href="#">W</a>
       <a href="#">X</a>
-      <a href="#" class="hidden">Y</a>
-      <a href="#" class="hidden">Z</a>
-
-      
+      <a href="#">Y</a>
+      <a href="#">Z</a>
     </div>
-        
-    
-    
+
     <footer class="footer">
- <div class="text">MAKE THE SENCE</div>
- <div class="blur-footer"></div>
+      <div class="text">MAKE THE SENSE</div>
     </footer>
-</body>
+
+    <script>
+      const filter = document.querySelector('.background');
+
+      const addFilters = () => filter.classList.toggle('multiple-filters');
+    </script>
+  </body>
 </html>
